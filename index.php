@@ -41,7 +41,7 @@
                   <input name = "senha" type="password" class="form-control" placeholder="Senha">
                 </div>
 
-<<<<<<< HEAD
+
                 <?php if(isset($_GET['login']) && $_GET['login'] == 'erro'){ ?>
                   <div class="text-danger">
                     Usuário ou senha inválido(s)
@@ -53,13 +53,6 @@
                     Faça o login antes de acessar este conteúdo.
                   </div>
                 <?php } ?>
-=======
-                <? if(isset($_GET['login']) && $_GET['login'] == 'erro'){ ?>
-                  <div class="text-danger">
-                    Usuário ou senha inválido(s)
-                  </div>
-                <? } ?>
->>>>>>> e32251cef1ea849d946ea3c39bf694c9d618bdd2
 
                 <button class="btn btn-lg btn-info btn-block" type="submit">Entrar</button>
               </form>

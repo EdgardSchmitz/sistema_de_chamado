@@ -1,0 +1,4 @@
+CPU#Hardware#Desliga sopzinho
+erro de impressão#Impressora#Impressora não liga
+telefone não funciona#Software#meu telefone não quer ligar
+NOva impressora#Impressora#Comprei uma nova impressora e não sei como usar
