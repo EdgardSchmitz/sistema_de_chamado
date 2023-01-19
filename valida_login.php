@@ -6,7 +6,7 @@ $usuario_autenticado = false;
 //usuarios do sistema
 $usuarios_app = array(
     array('email' => 'adm@teste.com.br', 'senha' => '123456'),
-    array('email' => 'user@teste.com.br', 'senha' => 'abcd'),
+    array('email' => 'user@teste.com.br', 'senha' => 'abcd')
 );
 
 /*
@@ -26,6 +26,8 @@ foreach($usuarios_app as $user){
 if($usuario_autenticado){
     echo 'Usuário autenticado';
     $_SESSION['autenticado'] = 'SIM';
+    $_SESSION['x'] = 'um valor';
+    $_SESSION['y'] = 'outro valor';
     header('Location: home.php');
 } else{
     $_SESSION['autenticado'] = 'NAO';
