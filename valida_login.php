@@ -1,12 +1,19 @@
 <?php
 
+<<<<<<< HEAD
 session_start();
 
+=======
+>>>>>>> e32251cef1ea849d946ea3c39bf694c9d618bdd2
 $usuario_autenticado = false;
 //usuarios do sistema
 $usuarios_app = array(
     array('email' => 'adm@teste.com.br', 'senha' => '123456'),
+<<<<<<< HEAD
     array('email' => 'user@teste.com.br', 'senha' => 'abcd')
+=======
+    array('email' => 'user@teste.com.br', 'senha' => 'abcd'),
+>>>>>>> e32251cef1ea849d946ea3c39bf694c9d618bdd2
 );
 
 /*
@@ -25,12 +32,16 @@ foreach($usuarios_app as $user){
 
 if($usuario_autenticado){
     echo 'Usuário autenticado';
+<<<<<<< HEAD
     $_SESSION['autenticado'] = 'SIM';
     $_SESSION['x'] = 'um valor';
     $_SESSION['y'] = 'outro valor';
     header('Location: home.php');
 } else{
     $_SESSION['autenticado'] = 'NAO';
+=======
+} else{
+>>>>>>> e32251cef1ea849d946ea3c39bf694c9d618bdd2
     header('Location: index.php?login=erro');
 }
 
