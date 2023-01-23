@@ -1,4 +1,5 @@
-CPU#Hardware#Desliga sopzinho
-erro de impressão#Impressora#Impressora não liga
-telefone não funciona#Software#meu telefone não quer ligar
-NOva impressora#Impressora#Comprei uma nova impressora e não sei como usar
+
+1#chamado Jose#Hardware#teste teste teste
+5#chamado Maria#Hardware#teste teste teste
+4#NOtebook não liga#Hardware#sdfasdfsdfsdfsdf
+3#CPU#Hardware#sdfedfafsdfsdfsdfdsf
